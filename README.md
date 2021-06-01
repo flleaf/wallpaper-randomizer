@@ -2,6 +2,8 @@
 
 A Termux project for applying random image in the chosen folder as a phone wallpaper
 
+**note**: to allow Termux to access your normal storage you need to run *termux-setup-storage*
+
 ## Installation
 
 ```bash
@@ -16,7 +18,9 @@ curl -O https://raw.githubusercontent.com/Illirick/wallpaper-randomizer/main/wal
 
 ## Usage
 
-It's pretty straightforward:
+To get the exact location of the folder you need to select it in the explorer then click properties and there would be the path.
+
+Then you need to run:
 
 ```bash
 change-wallpaper [path to the folder]
