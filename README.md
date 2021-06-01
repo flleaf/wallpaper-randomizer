@@ -32,7 +32,7 @@ For notification:
 wallpaper-notification [path to the folder]
 ```
 
-## Changing wallpaper every interval of time (I can't speak)
+## Changing wallpaper every x minutes
 
 First we need to create a script for the specific folder
 
