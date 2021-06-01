@@ -1,6 +1,6 @@
 # wallpaper-randomizer
 
-A ~~very messy~~ Termux project for applying random image in the chosen folder as a phone wallpaper
+A Termux project for applying random image in the chosen folder as a phone wallpaper
 
 ## Installation
 
