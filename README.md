@@ -33,7 +33,7 @@ wallpaper-notification [path to the folder]
 First we need to create a script for the specific folder
 
 ```bash
-touch ~/change-wallpaper && chmod u+x change-wallpaper-folder && echo "change-wallpaper [your folder] > change-wallpaper-folder"
+touch ~/change-wallpaper && chmod u+x change-wallpaper && echo "change-wallpaper [your folder]" > ~/change-wallpaper
 ```
 
 Then we need to actually put it on scheduler
