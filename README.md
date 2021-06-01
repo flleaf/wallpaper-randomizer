@@ -18,11 +18,15 @@ curl -O https://raw.githubusercontent.com/Illirick/wallpaper-randomizer/main/wal
 
 It's pretty straightforward:
 
-\> change-wallpaper [path to the folder]
+```bash
+hange-wallpaper [path to the folder]
+```
 
 For notification:
 
-\> wallpaper-notification [path to the folder]
+```
+wallpaper-notification [path to the folder]
+```
 
 ## Changing wallpaper every interval of time (I can't speak)
 
