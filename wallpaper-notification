@@ -1,0 +1,3 @@
+#!/data/data/com.termux/files/usr/bin/bash
+path=$1
+termux-notification -t "tap to" -c "to change wallpaper" --action "change-wallpaper \"${path}\" && wallpaper-notification \"${path}\""

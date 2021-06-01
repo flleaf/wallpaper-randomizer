@@ -1,0 +1,14 @@
+#!/data/data/com.termux/files/usr/bin/bash
+
+function main() {
+  if [[ $1 = "" ]];then
+    echo "No argument"
+    exit 0
+  fi
+  files=($(ls -p "$1" | grep -v /))
+  filepath="$1/${files[$(($RANDOM % ${#files[@]}))]}"
+  termux-wallpaper -f "$filepath"
+  exit 0
+}
+
+main "$@"
