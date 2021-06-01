@@ -19,7 +19,7 @@ curl -O https://raw.githubusercontent.com/Illirick/wallpaper-randomizer/main/wal
 It's pretty straightforward:
 
 ```bash
-hange-wallpaper [path to the folder]
+change-wallpaper [path to the folder]
 ```
 
 For notification:
