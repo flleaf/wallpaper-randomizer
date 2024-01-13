@@ -5,8 +5,14 @@ function main() {
     echo "No argument"
     exit 0
   fi
-  files=($(ls -p "$1" | grep -v /))
-  filepath="$1/${files[$(($RANDOM % ${#files[@]}))]}"
+  files=($(find $1 -type f -iregex ".*\.\(png\|jpg\|jpeg\)"))
+  filecount=${#files[@]}
+  if [ $filecount -eq 0 ]; then
+    echo "No files in the folder $1"
+    exit 1
+  fi
+  echo $filecount
+  filepath="${files[$(($RANDOM % $filecount))]}"
   termux-wallpaper -f "$filepath"
   exit 0
 }
