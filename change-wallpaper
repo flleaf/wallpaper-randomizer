@@ -11,7 +11,6 @@ function main() {
     echo "No files in the folder $1"
     exit 1
   fi
-  echo $filecount
   filepath="${files[$(($RANDOM % $filecount))]}"
   termux-wallpaper -f "$filepath"
   exit 0
